@@ -158,7 +158,3 @@ if __name__ == "__main__":
         for i, pos in enumerate(solution.get_final_positions(), 1):
             print(f"Rover {i}: {pos}")
             
-    except KeyboardInterrupt:
-        print("\nProgram terminated by user.")
-    except Exception as e:
-        print(f"\nError: {e}")
